@@ -1,6 +1,6 @@
 body {
     background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgb(40, 185, 77) 100%);
     /* background-repeat: no-repeat; */
     height: 100vh;
 }
@@ -10,6 +10,7 @@ body {
     padding: 0.625em;
     border-radius: 0.5em;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .button:hover {
@@ -30,18 +31,18 @@ body {
 
 .person-selector-button {
     width: 100%;
-    background-color: #15202b;
+    background-color: #194f85;
     color: #fff;
     font-size: 1.1em;
 }
 
 .active-person {
-    background: #08529d;
+    background: #745108;
     box-shadow: 0 0 0.5em 0.1em #c3c3c333;
 }
 
 .chat-container {
-    background: #15202b;
+    background: #194f85;
     font-family: 'Roboto', sans-serif;
     border-radius: 0.5em;
     padding: 0.5em 1.25em;
@@ -96,7 +97,7 @@ body {
 }
 
 .blue-bg {
-    background-color: #1c9bef;
+    background-color: #745108;
 }
 
 .gray-bg {
@@ -118,10 +119,11 @@ body {
     color: #333;
     font-size: 1em;
     flex-grow: 1;
+    outline: none;
 }
 
 .send-button {
-    background-color: #1c9bef;
+    background-color: #38db38;
     color: #fff;
     font-size: 1em;
     font-weight: bold;
@@ -130,4 +132,7 @@ body {
 .clear-chat-button {
     display: block;
     margin: 2.5em auto;
+    background: rgb(214, 49, 49);
+    font-weight: 800;
+    color: #fff;
 }
