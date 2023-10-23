@@ -38,7 +38,7 @@ body {
 
 .active-person {
     background: #745108;
-    box-shadow: 0 0 0.5em 0.1em #c3c3c333;
+    box-shadow: 0 0 0.5em 0.1em hsla(0, 0%, 76%, 0.2);
 }
 
 .chat-container {
@@ -98,10 +98,12 @@ body {
 
 .blue-bg {
     background-color: #745108;
+    margin-left: 50px;
 }
 
 .gray-bg {
     background-color: #3d5365;
+    margin-right: 50px;
 }
 
 .chat-input-form {
