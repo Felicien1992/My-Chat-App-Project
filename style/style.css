@@ -34,6 +34,7 @@ body {
     background-color: #194f85;
     color: #fff;
     font-size: 1.1em;
+    font-family: cursive;
 }
 
 .active-person {
@@ -83,6 +84,7 @@ body {
 .message-sender {
     font-weight: bold;
     margin-bottom: 0.31em;
+    font-family: cursive;
 }
 
 .message-text {
