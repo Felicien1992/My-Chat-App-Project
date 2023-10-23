@@ -38,7 +38,7 @@ body {
 }
 
 .active-person {
-    background: #745108;
+    background: #bb9d5c;
     box-shadow: 0 0 0.5em 0.1em hsla(0, 0%, 76%, 0.2);
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .blue-bg {
-    background-color: #745108;
+    background-color: #bb9d5c;
     margin-left: 50px;
 }
 
